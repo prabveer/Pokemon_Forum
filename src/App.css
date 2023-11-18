@@ -1,0 +1,42 @@
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+input{
+ width: 45%;
+ border-radius: 6rem;
+}
+.postTitle {
+  font-size: 22px;
+}
+.postBox {
+  display:inline-block;
+  width: 70%;
+  background-color: lightgray;
+  border-radius: 4rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+.postBox > div {
+  padding: 12px; 
+}
+.postBottomText{
+  display: flex;
+  justify-content: space-between;
+}
+.postBoxExpanded{
+  display:inline-block;
+  width: 50%;
+  background-color: lightgray;
+  border-radius: 4rem;
+  margin: 2rem;
+  padding: 2rem;
+  text-align:center
+}
+.postBoxExpanded > div {
+  padding: 12px; 
+}
+body{
+  text-align:center
+}
